@@ -3,6 +3,9 @@ body{
     margin: 0;
     padding: 0;
 }
+hr{
+    height: 2px solid grey;
+}
 
 /* All body */
 .container{
@@ -79,6 +82,7 @@ section{
     align-items: center;
 }
 .comment{
+    margin-top: 20px;
     width: 750px;
     height: auto;
     display: block;
@@ -92,9 +96,24 @@ section{
     display: flex;
     flex-direction: row;
 }
+.usersame{
+    align-content: center;
+    font-size: 12px;
+    margin-top: 0;
+}
 aside{
     grid-area: side;
     margin:20px 50px 20px 50px ;
+}
+.side-video{
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+
+}
+.rightvideoinfo{
+    display: block;
+    margin-left: 20px;
 }
 footer{
     grid-area: footer;
