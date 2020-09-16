@@ -78,6 +78,20 @@ section{
     font-size: 15px;
     align-items: center;
 }
+.comment{
+    width: 750px;
+    height: auto;
+    display: block;
+}
+.comment-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.user-icon{
+    display: flex;
+    flex-direction: row;
+}
 aside{
     grid-area: side;
     margin:20px 50px 20px 50px ;
