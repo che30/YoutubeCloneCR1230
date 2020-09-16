@@ -29,14 +29,35 @@ header{
     padding: 10px;
     border: 5px solid black;
     justify-content: space-between; 
+    border-bottom: 1px solid grey;
    
 } 
 .logo{
     height: 40px;
     width: 100px;
-    padding: 10px ;
+    display: flex;
+    flex-direction: row;
+    /* padding: 10px ; */
     margin: 5px;
 
+}
+.menu{
+    padding-right: 10px;
+}
+.searchbar{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+}
+.inputbar{
+    
+}
+.searchbutton{
+
+}
+.icons{
+    margin-right: 20px;
+    justify-content: space-evenly;
 }
 section{
     grid-area: contentss;
