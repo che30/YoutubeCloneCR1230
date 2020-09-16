@@ -117,4 +117,10 @@ aside{
 }
 footer{
     grid-area: footer;
+    display: block;
+}
+.mixed-info-footer{
+    display:flex;
+    flex-direction: row;
+
 }
