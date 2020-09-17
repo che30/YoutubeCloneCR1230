@@ -118,20 +118,31 @@ aside{
 footer{
     grid-area: footer;
     display: block;
-}
-
-.first{
+    margin-left: 40px;
+    }
+    .info-abt-footer{
+    margin-left: 70px; 
+    }
+    
+    .first{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-}
-.info{
+    justify-content: start;
+    }
+    .history{
+    display: flex;
+    flex-direction: row;
+    }
+    .info{
     display:flex;
     flex-direction: row;
     justify-content: flex-start;
-}
-.policy{
+    }
+    
+    .policy{
     display:flex;
     flex-direction: row;
     justify-content: flex-start;
-}
+    }
+    
+    
