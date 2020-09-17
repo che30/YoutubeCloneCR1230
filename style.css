@@ -2,6 +2,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #ededed;
 }
 hr{
     height: 2px solid grey;
@@ -22,6 +23,7 @@ hr{
 header{
     grid-area: nav;
     justify-content: center;
+    background-color: white;
 }
  nav{
     
@@ -68,11 +70,13 @@ header{
 }
 section{
     grid-area: contentss;
+    
 }
 .details{
     width: 750px;
     height: 250px;
     display: block;
+    background-color: white;
 }
 .users{
     display:flex ;
@@ -86,6 +90,7 @@ section{
     width: 750px;
     height: auto;
     display: block;
+    background-color: white;
 }
 .comment-top{
     display: flex;
@@ -104,6 +109,7 @@ section{
 aside{
     grid-area: side;
     margin:20px 50px 20px 50px ;
+    background-color: white;
 }
 .side-video{
     display: flex;
@@ -118,7 +124,8 @@ aside{
 footer{
     grid-area: footer;
     display: block;
-    margin-left: 40px;
+    
+    background-color: white;
     }
     .info-abt-footer{
     margin-left: 70px; 
@@ -128,21 +135,25 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: start;
+    margin-left: 40px;
     }
     .history{
     display: flex;
     flex-direction: row;
+
     }
     .info{
     display:flex;
     flex-direction: row;
     justify-content: flex-start;
+    margin-left: 40px;
     }
     
     .policy{
     display:flex;
     flex-direction: row;
     justify-content: flex-start;
+    margin-left: 40px;
     }
     
     
