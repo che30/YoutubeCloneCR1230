@@ -51,10 +51,10 @@ header{
     padding-right: 10px;
 }
 .searchbar{
-    /* display: flex;
-    flex-direction: row; */
+    display: flex;
+    flex-direction: row; 
     height: 20px;
-    width: 400px;
+    /* width: 400px; */
 }
 .inputbar{
     width: 400px;
