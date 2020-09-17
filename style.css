@@ -119,8 +119,19 @@ footer{
     grid-area: footer;
     display: block;
 }
-.mixed-info-footer{
+
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.info{
     display:flex;
     flex-direction: row;
-
+    justify-content: flex-start;
+}
+.policy{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
