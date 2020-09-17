@@ -67,6 +67,7 @@ header{
 }
 .videos{
     margin:20px 50px 20px 50px ;
+    
 }
 section{
     grid-area: contentss;
@@ -77,6 +78,7 @@ section{
     height: 250px;
     display: block;
     background-color: white;
+    
 }
 .users{
     display:flex ;
@@ -87,7 +89,7 @@ section{
 }
 .comment{
     margin-top: 20px;
-    width: 750px;
+    width: 805px;
     height: auto;
     display: block;
     background-color: white;
@@ -98,17 +100,27 @@ section{
     justify-content: space-between;
 }
 .user-icon{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px;
+    gap: 15px;
 }
-.usersame{
-    align-content: center;
+.user-avatar{
+    font-size: 50px;
+    margin-right: 15px;
+}
+.username{
+    /* align-content: center; */
     font-size: 12px;
-    margin-top: 0;
+    margin-bottom: 10px;
+}
+.subscribe{
+    float: left;
 }
 .user-comment{
     padding-top: 5px;
-  background-color: white;
+    background-color: white;
+    width: 805px;
 }
 aside{
     grid-area: side;
