@@ -73,7 +73,7 @@ section{
     
 }
 .details{
-    width: 750px;
+    width: 805px;
     height: 250px;
     display: block;
     background-color: white;
@@ -105,6 +105,10 @@ section{
     align-content: center;
     font-size: 12px;
     margin-top: 0;
+}
+.user-comment{
+    padding-top: 5px;
+  background-color: white;
 }
 aside{
     grid-area: side;
