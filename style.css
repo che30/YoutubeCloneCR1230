@@ -84,13 +84,18 @@ header{
     width: 450px;
     height: 20px;
 }
-.searchbutton{
-
+.searchbutton img{
+    padding: 4px 0 0 15px;
+    width: 150px;
+    height: 30px;
 }
 .icons{
     margin-right: 20px;
     justify-content: space-evenly;
     font-size: 20px;
+}
+.icon-pad{
+    padding: 10px 10px 10px 15px;
 }
 .videos{
     margin:20px 50px 20px 50px ;
