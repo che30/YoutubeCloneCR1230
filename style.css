@@ -32,9 +32,12 @@ header{
     width: 100%;
     height: 40px;
     padding: 10px;
-    border: 5px solid black;
+    background-color: #f5f7f6;
+    position: fixed;
+    align-items: center;
+    /* border: 5px solid black; */
     justify-content: space-between; 
-    border-bottom: 1px solid grey;
+    /* border-bottom: 1px solid grey; */
    
 } 
 
@@ -156,11 +159,28 @@ footer{
     flex-direction: row;
     justify-content: start;
     margin-left: 40px;
+    align-items: center;
+    }
+    select{ border: none;
+        background: none;
+
+    }
+    .button{
+        margin-right: 15px;
     }
     .history{
     display: flex;
     flex-direction: row;
+    height: 22px;
+    /* margin-left: 20px; */
 
+    }
+    .inner-history
+    {
+        margin-right: 15px;
+    }
+    .space{
+        padding-right: 7px;
     }
     .info{
     display:flex;
