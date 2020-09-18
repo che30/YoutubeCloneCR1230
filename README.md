@@ -17,9 +17,9 @@
 
 👤 **Author1**
 
-- GitHub: [@che30]https://github.com/che30)
-- Twitter: [@BlanchardNsoh]https://twitter.com/BlanchardNsoh
-- LinkedIn: [@che nsoh]https://www.linkedin.com/in/che-nsoh-9455271b0)
+- GitHub: [@che30](https://github.com/che30)
+- Twitter: [@BlanchardNsoh](https://twitter.com/BlanchardNsoh)
+- LinkedIn: [che nsoh](https://www.linkedin.com/in/che-nsoh-9455271b0/)
 
 👤 **Author2**
 
