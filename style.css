@@ -55,9 +55,11 @@ header{
     flex-direction: row; 
     height: 20px;
     /* width: 400px; */
+    font-size: 20px;
 }
 .inputbar{
-    width: 400px;
+    width: 450px;
+    height: 20px;
 }
 .searchbutton{
 
@@ -65,6 +67,7 @@ header{
 .icons{
     margin-right: 20px;
     justify-content: space-evenly;
+    font-size: 20px;
 }
 .videos{
     margin:20px 50px 20px 50px ;
