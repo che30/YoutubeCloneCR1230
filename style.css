@@ -247,11 +247,15 @@ footer{
     .space{
         padding-right: 7px;
     }
+    .bottomm{
+        width: 94%;
+    }
     .info{
     display:flex;
     flex-direction: row;
     justify-content: flex-start;
     margin-left: 40px;
+    font-weight: bold;
     }
     
     .policy{
