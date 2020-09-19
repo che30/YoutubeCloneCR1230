@@ -69,6 +69,13 @@ header{
     /* padding: 10px ; */
     margin: 5px;
 
+
+}
+.pad{
+    padding-left: 10px;
+}
+.menu-icon{
+    padding-top: 10px;
 }
 .menu{
     padding-right: 10px;
@@ -76,7 +83,7 @@ header{
 .searchbar{
     display: flex;
     flex-direction: row; 
-    height: 20px;
+    height: 25px;
     /* width: 400px; */
     font-size: 20px;
 }
@@ -125,6 +132,12 @@ section{
 .video-details{
     display: inline-flex;
 }
+.video-details-style{
+    padding-right: 15px;
+}
+.video-details-icon{
+    padding-right: 6px;
+}
 .comment{
     margin-top: 20px;
     width: 805px;
@@ -166,10 +179,14 @@ section{
 }
 a{
     text-decoration: none;
+    color: gray;
 }
 .public-comment{
     display: inline;
     margin-bottom: 20px;
+}
+.public-comments-icon{
+    font-size: 30px;
 }
 .subscriber-comment{
     border: none;
@@ -257,7 +274,9 @@ footer{
     margin-left: 40px;
     font-weight: bold;
     }
-    
+    .info-style{
+        margin: 10px 20px;
+    }
     .policy{
     display:flex;
     flex-direction: row;
